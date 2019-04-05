@@ -12,4 +12,4 @@
 module load bioinfo-tools
 module load bwa/0.7.17
 
-bwa mem /home/martene/Genome_Analysis/Analysis/Genome_Assembly/Genome_Assembly.contigs.fasta /home/martene/Genome_Analysis/Raw_Data/Illumina_data/Illumina_Scaffold_1 /home/martene/Genome_Analysis/Raw_Data/Illumina_data/Illumina_Scaffold_3 /home/martene/Genome_Analysis/Analysis/BWA  
+bwa mem /home/martene/Genome_Analysis/Analysis/Genome_Assembly/Genome_Assembly.contigs.fasta /home/martene/Genome_Analysis/Raw_Data/Illumina_data/Illumina_Scaffold_1 /home/martene/Genome_Analysis/Raw_Data/Illumina_data/Illumina_Scaffold_3 > /home/martene/Genome_Analysis/Analysis/Scratch/BWA.sam  
