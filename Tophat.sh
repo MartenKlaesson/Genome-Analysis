@@ -16,6 +16,7 @@ module load tophat
 
 for file in /home/martene/Genome_Analysis/Raw_Data/transcriptome/trimmed/*.1.fastq.gz
 do
-  file2="$(sed 's/\.1/.2/' <<<'$file')"
-  tophat -p 4 /home/martene/Genome_Analysis/Analysis/Bowtie2_Tophat/genome_index_base $file $file2
+  file2="$(sed 's/\.1/.2/' <<<$file)"
+  output="$(basename ${file%.fastq.gz})"
+  tophat -p 4 /home/martene/Genome_Analysis/Analysis/Bowtie2_Tophat/genome_index_base $file $file2 -o $output
 done
