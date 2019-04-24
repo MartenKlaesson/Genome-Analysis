@@ -12,5 +12,5 @@ module load samtools
 for file in /home/martene/Genome_Analysis/Analysis/Bowtie2_Tophat/outputfiles/*
 do
 	output=$(basename $file)
-	samtools sort $file/accepted_hits.bam -o /home/martene/Genome_Analysis/Analysis/Bowtie2_Tophat/transcriptome_alignment_sorted/accepted_hits_sorted_2019-04-24_$output.bam
+	samtools sort $file/accepted_hits.bam -o /home/martene/Genome_Analysis/Analysis/Bowtie2_Tophat/transcriptome_alignment_sorted_2019-04-24/accepted_hits_sorted_2019-04-24_$output.bam
 done
