@@ -16,7 +16,7 @@ module load tophat
 
 
 # Commands
-for file in /home/martene/Genome_Analysis/data/raw_data/transcriptome/trimmed/*_10.1.fastq.gz
+for file in /home/martene/Genome_Analysis/Raw_Data/transcriptome/trimmed/*_10.1.fastq.gz
 do 
 	file2="$(sed 's/_10\.1/_10.2/' <<<$file)"
 	output=$(basename $file)
