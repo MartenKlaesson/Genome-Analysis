@@ -10,11 +10,10 @@
 module load bioinfo-tools
 module load samtools
 module load trinity
-for file in /home/martene/Genome_Analysis/Analysis/Bowtie2_Tophat/transcriptome_alignment_sorted_2019-04-24/*
-do
-	output=$(basename $file)
+
+	
   
  Trinity --genome_guided_bam /home/martene/Genome_Analysis/Analysis/Bowtie2_Tophat/transcriptome_alignment_sorted_2019-04-24/merged_transcriptome_alignment_sorted.bam   --output "/home/martene/Genome_Analysis/Analysis/Bowtie2_Tophat/transcriptome_alignment_sorted_2019-04-24/trinity_out/Genome_guided_trinity \
          --genome_guided_max_intron 10000 \
          --max_memory 20G --CPU 4 
-done
+
