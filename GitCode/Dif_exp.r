@@ -34,7 +34,7 @@ factor<-c("nonfruit","nonfruit","nonfruit","fruit")
 metadata <- data.frame(row.names=colnames(rna_counter_exv1), factor)
 
 Input_deseq <- DESeqDataSetFromMatrix(countData=rna_counter_exv1, colData=metadata, design= ~ factor)
-
+ 
 deseq_data <- DESeq(Input_deseq)
 
 #PCA
