@@ -23,3 +23,4 @@ do
 	tophat -o /home/martene/Genome_Analysis/Analysis/Bowtie2_Tophat/outputfiles/tophat_out_${output%.fastq.gz} \
 	-p 4 /home/martene/Genome_Analysis/Analysis/Bowtie2_Tophat/genome_index_base $file $file2
 done
+ 
