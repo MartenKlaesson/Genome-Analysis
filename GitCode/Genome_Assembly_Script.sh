@@ -1,7 +1,7 @@
 #!/bin/bash -l
 #SBATCH -A g2019003
 #SBATCH -p core
-#SBATCH -n 4
+#SBATCH -n 4 
 #SBATCH -t 20:00:00
 #SBATCH -J Genome_Assembly_Marten
 #SBATCH --mail-type=ALL
