@@ -17,3 +17,4 @@ module load maker
 
 cd /home/martene/Genome_Analysis/Analysis/maker/
 maker
+ 
