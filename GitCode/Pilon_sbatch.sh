@@ -10,6 +10,6 @@
 module load bioinfo-tools
 module load Pilon/1.22
 # Your commands
-
+ 
 
 pilon --genome /home/martene/Genome_Analysis/Analysis/Genome_Assembly/Genome_Assembly.contigs.fasta --bam /home/martene/Genome_Analysis/Analysis/Scratch/BWA.sorted.bam --diploid --threads 4 --output /home/martene/Genome_Analysis/Analysis/Pilon_run/Pilon_output 
