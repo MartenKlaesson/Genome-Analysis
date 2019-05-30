@@ -17,3 +17,4 @@ module load maker
 
 cd /home/martene/Genome_Analysis/Analysis/maker/Pilon_output.maker.output 
 optimize_augustus.pl --species=arabidopsis augustus.gbk.train --AUGUSTUS_CONFIG_PATH=/home/martene/Genome_Analysis/Analysis/maker/NCBI_assembly.maker.output/config
+ 
