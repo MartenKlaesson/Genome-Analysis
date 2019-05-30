@@ -17,3 +17,4 @@ do
          --genome_guided_max_intron 10000 \
          --max_memory 20G --CPU 4 
 done
+  
