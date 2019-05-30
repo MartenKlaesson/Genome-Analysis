@@ -17,3 +17,4 @@ do
 	output=$(basename $file)
 	htseq-count -f bam -r pos -t CDS  $file /home/martene/Genome_Analysis/Analysis/GFF_seq/ref_genome_annotation_altered.gtf > htseq_count_text$output.txt -o /home/martene/Genome_Analysis/Analysis/htseq/htseq_2019-05-24_$output.bam
 done
+ 
